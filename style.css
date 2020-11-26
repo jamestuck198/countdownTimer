@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Agency FB";
+    margin: 0;
+    background-color: #bed3c3;
+    color: #212e53;
+}
+
+span{
+    font-size: x-large;
+    font-weight:800;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+p{
+    font-size: xx-large;
+    font-weight:900;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#daysLabel{
+    left: 12.5%;
+}
+
+#hoursLabel{
+    left: 37.5%;
+}
+
+#minutesLabel{
+    left:62.5%
+}
+
+#secondsLabel{
+    left:87.5%
+}
+
+#days{
+    left: 12.5%;
+}
+
+#hours{
+    left: 37.5%;
+}
+
+#minutes{
+    left:62.5%
+}
+
+#seconds{
+    left:87.5%
+}
+
+h1{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    text-align: center;
+}
