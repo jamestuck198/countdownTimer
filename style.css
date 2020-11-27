@@ -2,11 +2,31 @@
     box-sizing: border-box;
 
 }
+
+div.input{
+    align-content: baseline;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+input{
+    animation: ease-in;
+}
 body{
     font-family: "Agency FB";
     margin: 0;
     background-color: #bed3c3;
     color: #212e53;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
 
 span{
